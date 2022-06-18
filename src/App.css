@@ -1,13 +1,110 @@
 body {
-    /* override browser defaults */
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* .clearfix {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* color: #212529; */
+  text-align: left;
+  background-color: #fff;
+}
+
+/* .clearfix {
     overflow: auto;
     border: 1px solid red;
     background-color: lightgray;
   } */
+.home_img {
+  height: 40rem !important;
+  width: 100% !important;
+}
+.htag1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.5rem;
+}
+.about-title {
+  width: 100%;
+  margin: 80px 0px 60px 0px;
+  text-align: center;
+  color: white;
+}
+[data-aos^="zoom"][data-aos^="zoom"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+}
+body[data-aos-easing="ease"] [data-aos] {
+  transition-timing-function: ease;
+}
 
-  
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 0.4s;
+}
+[data-aos^="zoom"][data-aos^="zoom"] {
+  /* opacity: 0; */
+  transition-property: opacity, transform;
+}
+[data-aos="zoom-in"] {
+  /* transform: scale(0.6); */
+}
+.title {
+  text-align: center;
+  margin: 80px 0px 60px 0px;
+}
+.htag1 {
+  font-family: "Noto Sans", sans-serif;
+}
+/* ////////////////// */
+#product {
+  background-color: rgb(220 227 227);
+  margin: 20px 0px 20px 0px;
+}
+.myrow {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.products-background {
+  width: 100%;
+  background-color: rgba(217, 226, 226, 0.7);
+}
+.products {
+  width: 350px;
+  height: 310px;
+  /* border: 2px solid red; */
+  text-align: center;
+  margin: 30px;
+  transition: 0.5s;
+}
+.products h3 {
+  text-align: center;
+}
+.products img {
+  width: 350px;
+  height: 250px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  transition: 0.4s;
+  background-color: black;
+}
+.products img:hover {
+  width: 352px;
+  height: 253px;
+  box-shadow: 4px 10px 30px 10px rgb(80 78 78);
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.products p a {
+  /* color: white; */
+  text-decoration: none;
+  transition: 0.5s;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
